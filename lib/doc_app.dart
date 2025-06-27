@@ -19,6 +19,7 @@ class DocApp extends StatelessWidget {
         theme: ThemeData(
           primaryColor: ColorManager.blueMain,
           scaffoldBackgroundColor: Colors.white,
+          useMaterial3: true,
         ),
         initialRoute: Routes.OnboardingScreen,
         onGenerateRoute: appRouter.onGenerateRoute,
